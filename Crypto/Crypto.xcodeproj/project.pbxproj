@@ -42,6 +42,8 @@
 		C0E3EFCB28592C2A00D81B68 /* PortfolioCoinModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E3EFC928592C2A00D81B68 /* PortfolioCoinModel.swift */; };
 		C0E3EFCC28592C2A00D81B68 /* PortfolioCoinModelBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E3EFCA28592C2A00D81B68 /* PortfolioCoinModelBrain.swift */; };
 		C0E3EFCE28592CAA00D81B68 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E3EFCD28592CAA00D81B68 /* StringExtension.swift */; };
+		C0E3EFD428592DDD00D81B68 /* PortfolioTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E3EFD228592DDD00D81B68 /* PortfolioTableViewCell.swift */; };
+		C0E3EFD528592DDD00D81B68 /* PortfolioTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C0E3EFD328592DDD00D81B68 /* PortfolioTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -82,6 +84,8 @@
 		C0E3EFC928592C2A00D81B68 /* PortfolioCoinModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PortfolioCoinModel.swift; sourceTree = "<group>"; };
 		C0E3EFCA28592C2A00D81B68 /* PortfolioCoinModelBrain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PortfolioCoinModelBrain.swift; sourceTree = "<group>"; };
 		C0E3EFCD28592CAA00D81B68 /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		C0E3EFD228592DDD00D81B68 /* PortfolioTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PortfolioTableViewCell.swift; sourceTree = "<group>"; };
+		C0E3EFD328592DDD00D81B68 /* PortfolioTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PortfolioTableViewCell.xib; sourceTree = "<group>"; };
 		DD646E5ED12022B6A7F43637 /* Pods-Crypto.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Crypto.debug.xcconfig"; path = "Target Support Files/Pods-Crypto/Pods-Crypto.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -359,6 +363,7 @@
 		C0E3EFC728592C1100D81B68 /* Portfolio */ = {
 			isa = PBXGroup;
 			children = (
+				C0E3EFD028592DDD00D81B68 /* Components */,
 				C0E3EFC828592C1F00D81B68 /* Model */,
 			);
 			path = Portfolio;
@@ -371,6 +376,23 @@
 				C0E3EFCA28592C2A00D81B68 /* PortfolioCoinModelBrain.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		C0E3EFD028592DDD00D81B68 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				C0E3EFD128592DDD00D81B68 /* PortfolioTableViewCell */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		C0E3EFD128592DDD00D81B68 /* PortfolioTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				C0E3EFD228592DDD00D81B68 /* PortfolioTableViewCell.swift */,
+				C0E3EFD328592DDD00D81B68 /* PortfolioTableViewCell.xib */,
+			);
+			path = PortfolioTableViewCell;
 			sourceTree = "<group>";
 		};
 		C3BA24569E57A483B59C86F7 /* Pods */ = {
@@ -450,6 +472,7 @@
 			files = (
 				C0396AA528590B0800023554 /* GlobalInfoCollectionViewCell.xib in Resources */,
 				C0C74ACD2858AA1B00E32399 /* Assets.xcassets in Resources */,
+				C0E3EFD528592DDD00D81B68 /* PortfolioTableViewCell.xib in Resources */,
 				C0396AAB28590B6100023554 /* LaunchScreen.storyboard in Resources */,
 				C0C74ACB2858AA1800E32399 /* Main.storyboard in Resources */,
 				C0396AA328590B0800023554 /* MarketInfoTableViewCell.xib in Resources */,
@@ -530,6 +553,7 @@
 				C0396AA628590B0800023554 /* GlobalInfoCollectionViewCell.swift in Sources */,
 				C0C74AF12858B3CA00E32399 /* SettingsViewModel.swift in Sources */,
 				C0E3EFCC28592C2A00D81B68 /* PortfolioCoinModelBrain.swift in Sources */,
+				C0E3EFD428592DDD00D81B68 /* PortfolioTableViewCell.swift in Sources */,
 				C0396A9F28590B0800023554 /* CoinsModel.swift in Sources */,
 				C0396AA728590B0800023554 /* MarketInfoViewController.swift in Sources */,
 				C0396AA928590B0800023554 /* MarketInfoCollectionViewHelper.swift in Sources */,
