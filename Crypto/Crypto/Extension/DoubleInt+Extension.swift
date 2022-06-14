@@ -1,5 +1,5 @@
 //
-//  DoubleExtension.swift
+//  DoubleInt+Extension.swift
 //  Crypto
 //
 //  Created by Berk Beleli on 2022-06-11.
