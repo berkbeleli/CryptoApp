@@ -21,6 +21,7 @@
 		C0C74AED2858B33500E32399 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C74AEC2858B33500E32399 /* SettingsViewController.swift */; };
 		C0C74AEF2858B3B100E32399 /* Websites.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C74AEE2858B3B100E32399 /* Websites.swift */; };
 		C0C74AF12858B3CA00E32399 /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C74AF02858B3CA00E32399 /* SettingsViewModel.swift */; };
+		C0C74AF52858B6CA00E32399 /* WebviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C74AF42858B6CA00E32399 /* WebviewViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		C0C74AEC2858B33500E32399 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		C0C74AEE2858B3B100E32399 /* Websites.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Websites.swift; sourceTree = "<group>"; };
 		C0C74AF02858B3CA00E32399 /* SettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
+		C0C74AF42858B6CA00E32399 /* WebviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebviewViewController.swift; sourceTree = "<group>"; };
 		DD646E5ED12022B6A7F43637 /* Pods-Crypto.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Crypto.debug.xcconfig"; path = "Target Support Files/Pods-Crypto/Pods-Crypto.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -85,6 +87,7 @@
 		C0C74AC22858AA1800E32399 /* Crypto */ = {
 			isa = PBXGroup;
 			children = (
+				C0C74AF22858B6AE00E32399 /* Web Page */,
 				C0C74ADE2858AE7300E32399 /* Login */,
 				C0C74AE82858B2EF00E32399 /* Settings */,
 				C0C74AE52858AF4200E32399 /* Extension */,
@@ -164,6 +167,22 @@
 				C0C74AF02858B3CA00E32399 /* SettingsViewModel.swift */,
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		C0C74AF22858B6AE00E32399 /* Web Page */ = {
+			isa = PBXGroup;
+			children = (
+				C0C74AF32858B6B500E32399 /* View Controller */,
+			);
+			path = "Web Page";
+			sourceTree = "<group>";
+		};
+		C0C74AF32858B6B500E32399 /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C0C74AF42858B6CA00E32399 /* WebviewViewController.swift */,
+			);
+			path = "View Controller";
 			sourceTree = "<group>";
 		};
 		C3BA24569E57A483B59C86F7 /* Pods */ = {
@@ -302,6 +321,7 @@
 				C0C74AC42858AA1800E32399 /* AppDelegate.swift in Sources */,
 				C0C74AE72858AF6200E32399 /* UITextField+Extension.swift in Sources */,
 				C0C74AE42858AEE800E32399 /* LoginViewModel.swift in Sources */,
+				C0C74AF52858B6CA00E32399 /* WebviewViewController.swift in Sources */,
 				C0C74AC62858AA1800E32399 /* SceneDelegate.swift in Sources */,
 				C0C74AEF2858B3B100E32399 /* Websites.swift in Sources */,
 				C0C74AF12858B3CA00E32399 /* SettingsViewModel.swift in Sources */,

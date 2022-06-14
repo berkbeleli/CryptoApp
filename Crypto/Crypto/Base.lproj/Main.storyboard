@@ -336,6 +336,59 @@
             </objects>
             <point key="canvasLocation" x="1034.7826086956522" y="-758.03571428571422"/>
         </scene>
+        <!--Webview View Controller-->
+        <scene sceneID="bhD-Z6-E0L">
+            <objects>
+                <viewController storyboardIdentifier="Webview" id="G5D-tB-Oy0" customClass="WebviewViewController" customModule="Crypto" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="DSN-D9-mXZ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Dkx-Zo-WGc">
+                                <rect key="frame" x="0.0" y="88" width="414" height="774"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="7vf-XX-QTp"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="7vf-XX-QTp" firstAttribute="trailing" secondItem="Dkx-Zo-WGc" secondAttribute="trailing" id="9aG-C4-NGT"/>
+                            <constraint firstItem="Dkx-Zo-WGc" firstAttribute="top" secondItem="7vf-XX-QTp" secondAttribute="top" id="AcC-Zf-n6s"/>
+                            <constraint firstItem="Dkx-Zo-WGc" firstAttribute="leading" secondItem="7vf-XX-QTp" secondAttribute="leading" id="tmd-6r-FKB"/>
+                            <constraint firstItem="7vf-XX-QTp" firstAttribute="bottom" secondItem="Dkx-Zo-WGc" secondAttribute="bottom" id="yRG-YV-4ad"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="lBp-1O-ReK"/>
+                    <connections>
+                        <outlet property="webView" destination="Dkx-Zo-WGc" id="szf-eV-3aW"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FIK-An-vWq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5023.188405797102" y="45.535714285714285"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="8Pv-tW-MHi">
+            <objects>
+                <navigationController storyboardIdentifier="NavController" automaticallyAdjustsScrollViewInsets="NO" id="lmC-4l-4kI" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="oO3-kb-z8V">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="G5D-tB-Oy0" kind="relationship" relationship="rootViewController" id="Uim-Pu-U6z"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uEP-JZ-u8z" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3955.0724637681164" y="38.839285714285715"/>
+        </scene>
     </scenes>
     <resources>
         <image name="background" width="3840" height="2160"/>
