@@ -47,6 +47,7 @@
 		C0E3EFD828592E5900D81B68 /* PortfolioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E3EFD728592E5900D81B68 /* PortfolioViewController.swift */; };
 		C0E3EFDB28592E7E00D81B68 /* PortfolioTableViewHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E3EFDA28592E7E00D81B68 /* PortfolioTableViewHelper.swift */; };
 		C0E3EFDE2859302400D81B68 /* PortfolioViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E3EFDD2859302400D81B68 /* PortfolioViewModel.swift */; };
+		C0E3EFE32859333200D81B68 /* SearchCoinModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E3EFE22859333200D81B68 /* SearchCoinModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -92,6 +93,7 @@
 		C0E3EFD728592E5900D81B68 /* PortfolioViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PortfolioViewController.swift; sourceTree = "<group>"; };
 		C0E3EFDA28592E7E00D81B68 /* PortfolioTableViewHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PortfolioTableViewHelper.swift; sourceTree = "<group>"; };
 		C0E3EFDD2859302400D81B68 /* PortfolioViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PortfolioViewModel.swift; sourceTree = "<group>"; };
+		C0E3EFE22859333200D81B68 /* SearchCoinModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchCoinModel.swift; sourceTree = "<group>"; };
 		DD646E5ED12022B6A7F43637 /* Pods-Crypto.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Crypto.debug.xcconfig"; path = "Target Support Files/Pods-Crypto/Pods-Crypto.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -226,6 +228,7 @@
 				C0396A8928590B0800023554 /* MarketInfo */,
 				C0E3EFB7285927EC00D81B68 /* Details */,
 				C0E3EFC728592C1100D81B68 /* Portfolio */,
+				C0E3EFDF2859331700D81B68 /* Search */,
 				C0C74AE52858AF4200E32399 /* Extension */,
 				C0C74AC32858AA1800E32399 /* AppDelegate.swift */,
 				C0C74AC52858AA1800E32399 /* SceneDelegate.swift */,
@@ -428,6 +431,22 @@
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
+		C0E3EFDF2859331700D81B68 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				C0E3EFE12859333200D81B68 /* Model */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		C0E3EFE12859333200D81B68 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C0E3EFE22859333200D81B68 /* SearchCoinModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		C3BA24569E57A483B59C86F7 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -575,6 +594,7 @@
 				C0C74AE42858AEE800E32399 /* LoginViewModel.swift in Sources */,
 				C0E3EFCB28592C2A00D81B68 /* PortfolioCoinModel.swift in Sources */,
 				C0396AA128590B0800023554 /* CoinService.swift in Sources */,
+				C0E3EFE32859333200D81B68 /* SearchCoinModel.swift in Sources */,
 				C0396AA828590B0800023554 /* MarketInfoTableViewHelper.swift in Sources */,
 				C0396A8828590A4A00023554 /* DoubleInt+Extension.swift in Sources */,
 				C0E3EFBA2859282500D81B68 /* DetailViewController.swift in Sources */,
