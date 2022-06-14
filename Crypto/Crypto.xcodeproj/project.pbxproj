@@ -48,6 +48,8 @@
 		C0E3EFDB28592E7E00D81B68 /* PortfolioTableViewHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E3EFDA28592E7E00D81B68 /* PortfolioTableViewHelper.swift */; };
 		C0E3EFDE2859302400D81B68 /* PortfolioViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E3EFDD2859302400D81B68 /* PortfolioViewModel.swift */; };
 		C0E3EFE32859333200D81B68 /* SearchCoinModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E3EFE22859333200D81B68 /* SearchCoinModel.swift */; };
+		C0E3EFE82859339700D81B68 /* SearchCoinTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E3EFE62859339700D81B68 /* SearchCoinTableViewCell.swift */; };
+		C0E3EFE92859339700D81B68 /* SearchCoinTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C0E3EFE72859339700D81B68 /* SearchCoinTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -94,6 +96,8 @@
 		C0E3EFDA28592E7E00D81B68 /* PortfolioTableViewHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PortfolioTableViewHelper.swift; sourceTree = "<group>"; };
 		C0E3EFDD2859302400D81B68 /* PortfolioViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PortfolioViewModel.swift; sourceTree = "<group>"; };
 		C0E3EFE22859333200D81B68 /* SearchCoinModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchCoinModel.swift; sourceTree = "<group>"; };
+		C0E3EFE62859339700D81B68 /* SearchCoinTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchCoinTableViewCell.swift; sourceTree = "<group>"; };
+		C0E3EFE72859339700D81B68 /* SearchCoinTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SearchCoinTableViewCell.xib; sourceTree = "<group>"; };
 		DD646E5ED12022B6A7F43637 /* Pods-Crypto.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Crypto.debug.xcconfig"; path = "Target Support Files/Pods-Crypto/Pods-Crypto.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -434,6 +438,7 @@
 		C0E3EFDF2859331700D81B68 /* Search */ = {
 			isa = PBXGroup;
 			children = (
+				C0E3EFE42859339700D81B68 /* Components */,
 				C0E3EFE12859333200D81B68 /* Model */,
 			);
 			path = Search;
@@ -445,6 +450,23 @@
 				C0E3EFE22859333200D81B68 /* SearchCoinModel.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		C0E3EFE42859339700D81B68 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				C0E3EFE52859339700D81B68 /* SearchCoinTableViewCell */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		C0E3EFE52859339700D81B68 /* SearchCoinTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				C0E3EFE62859339700D81B68 /* SearchCoinTableViewCell.swift */,
+				C0E3EFE72859339700D81B68 /* SearchCoinTableViewCell.xib */,
+			);
+			path = SearchCoinTableViewCell;
 			sourceTree = "<group>";
 		};
 		C3BA24569E57A483B59C86F7 /* Pods */ = {
@@ -528,6 +550,7 @@
 				C0396AAB28590B6100023554 /* LaunchScreen.storyboard in Resources */,
 				C0C74ACB2858AA1800E32399 /* Main.storyboard in Resources */,
 				C0396AA328590B0800023554 /* MarketInfoTableViewCell.xib in Resources */,
+				C0E3EFE92859339700D81B68 /* SearchCoinTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -608,6 +631,7 @@
 				C0396AA628590B0800023554 /* GlobalInfoCollectionViewCell.swift in Sources */,
 				C0C74AF12858B3CA00E32399 /* SettingsViewModel.swift in Sources */,
 				C0E3EFCC28592C2A00D81B68 /* PortfolioCoinModelBrain.swift in Sources */,
+				C0E3EFE82859339700D81B68 /* SearchCoinTableViewCell.swift in Sources */,
 				C0E3EFD428592DDD00D81B68 /* PortfolioTableViewCell.swift in Sources */,
 				C0396A9F28590B0800023554 /* CoinsModel.swift in Sources */,
 				C0E3EFDE2859302400D81B68 /* PortfolioViewModel.swift in Sources */,
