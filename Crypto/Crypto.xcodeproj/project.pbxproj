@@ -27,7 +27,6 @@
 		C0C74AC82858AA1800E32399 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C74AC72858AA1800E32399 /* ViewController.swift */; };
 		C0C74ACB2858AA1800E32399 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0C74AC92858AA1800E32399 /* Main.storyboard */; };
 		C0C74ACD2858AA1B00E32399 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0C74ACC2858AA1B00E32399 /* Assets.xcassets */; };
-		C0C74ADD2858AD6900E32399 /* Charts in Frameworks */ = {isa = PBXBuildFile; productRef = C0C74ADC2858AD6900E32399 /* Charts */; };
 		C0C74AE12858AE9D00E32399 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C74AE02858AE9D00E32399 /* LoginViewController.swift */; };
 		C0C74AE42858AEE800E32399 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C74AE32858AEE800E32399 /* LoginViewModel.swift */; };
 		C0C74AE72858AF6200E32399 /* UITextField+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C74AE62858AF6200E32399 /* UITextField+Extension.swift */; };
@@ -38,6 +37,8 @@
 		C0E3EFBA2859282500D81B68 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E3EFB92859282500D81B68 /* DetailViewController.swift */; };
 		C0E3EFBD2859296D00D81B68 /* SpecificCoinDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E3EFBC2859296D00D81B68 /* SpecificCoinDataService.swift */; };
 		C0E3EFC028592A0C00D81B68 /* SpecificCoinModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E3EFBF28592A0C00D81B68 /* SpecificCoinModel.swift */; };
+		C0E3EFC328592A3F00D81B68 /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E3EFC228592A3F00D81B68 /* DetailViewModel.swift */; };
+		C0E3EFC628592B6500D81B68 /* Charts in Frameworks */ = {isa = PBXBuildFile; productRef = C0E3EFC528592B6500D81B68 /* Charts */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -74,6 +75,7 @@
 		C0E3EFB92859282500D81B68 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		C0E3EFBC2859296D00D81B68 /* SpecificCoinDataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpecificCoinDataService.swift; sourceTree = "<group>"; };
 		C0E3EFBF28592A0C00D81B68 /* SpecificCoinModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpecificCoinModel.swift; sourceTree = "<group>"; };
+		C0E3EFC228592A3F00D81B68 /* DetailViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
 		DD646E5ED12022B6A7F43637 /* Pods-Crypto.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Crypto.debug.xcconfig"; path = "Target Support Files/Pods-Crypto/Pods-Crypto.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -83,7 +85,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3570B2184E6CCEF5C57BE85F /* Pods_Crypto.framework in Frameworks */,
-				C0C74ADD2858AD6900E32399 /* Charts in Frameworks */,
+				C0E3EFC628592B6500D81B68 /* Charts in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,6 +311,7 @@
 				C0E3EFBE28592A0C00D81B68 /* Model */,
 				C0E3EFBB2859295A00D81B68 /* API Service */,
 				C0E3EFB82859281000D81B68 /* ViewController */,
+				C0E3EFC128592A3F00D81B68 /* ViewModel */,
 			);
 			path = Details;
 			sourceTree = "<group>";
@@ -335,6 +338,14 @@
 				C0E3EFBF28592A0C00D81B68 /* SpecificCoinModel.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		C0E3EFC128592A3F00D81B68 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				C0E3EFC228592A3F00D81B68 /* DetailViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 		C3BA24569E57A483B59C86F7 /* Pods */ = {
@@ -365,7 +376,7 @@
 			);
 			name = Crypto;
 			packageProductDependencies = (
-				C0C74ADC2858AD6900E32399 /* Charts */,
+				C0E3EFC528592B6500D81B68 /* Charts */,
 			);
 			productName = Crypto;
 			productReference = C0C74AC02858AA1800E32399 /* Crypto.app */;
@@ -396,7 +407,7 @@
 			);
 			mainGroup = C0C74AB72858AA1800E32399;
 			packageReferences = (
-				C0C74ADB2858AD6800E32399 /* XCRemoteSwiftPackageReference "Charts" */,
+				C0E3EFC428592B6500D81B68 /* XCRemoteSwiftPackageReference "Charts" */,
 			);
 			productRefGroup = C0C74AC12858AA1800E32399 /* Products */;
 			projectDirPath = "";
@@ -482,6 +493,7 @@
 				C0396AA828590B0800023554 /* MarketInfoTableViewHelper.swift in Sources */,
 				C0396A8828590A4A00023554 /* DoubleInt+Extension.swift in Sources */,
 				C0E3EFBA2859282500D81B68 /* DetailViewController.swift in Sources */,
+				C0E3EFC328592A3F00D81B68 /* DetailViewModel.swift in Sources */,
 				C0C74AF52858B6CA00E32399 /* WebviewViewController.swift in Sources */,
 				C0396AA228590B0800023554 /* GlobalMarketService.swift in Sources */,
 				C0E3EFBD2859296D00D81B68 /* SpecificCoinDataService.swift in Sources */,
@@ -704,20 +716,20 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		C0C74ADB2858AD6800E32399 /* XCRemoteSwiftPackageReference "Charts" */ = {
+		C0E3EFC428592B6500D81B68 /* XCRemoteSwiftPackageReference "Charts" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/danielgindi/Charts.git";
 			requirement = {
-				branch = master;
-				kind = branch;
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		C0C74ADC2858AD6900E32399 /* Charts */ = {
+		C0E3EFC528592B6500D81B68 /* Charts */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = C0C74ADB2858AD6800E32399 /* XCRemoteSwiftPackageReference "Charts" */;
+			package = C0E3EFC428592B6500D81B68 /* XCRemoteSwiftPackageReference "Charts" */;
 			productName = Charts;
 		};
 /* End XCSwiftPackageProductDependency section */
