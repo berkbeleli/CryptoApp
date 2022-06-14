@@ -42,11 +42,11 @@ class MarketInfoTableViewHelper: NSObject {
 extension MarketInfoTableViewHelper: UITableViewDelegate {
   
   func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-//    let rowItem = allCoinsDatas[indexPath.row]
-//    let vc = UIStoryboard.init(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "DetailView") as! DetailViewController
-//    vc.coinName = rowItem.id
-//    vc.modalPresentationStyle = .popover
-//    self.delegate?.didCryptoSelected(vc)
+    let rowItem = allCoinsDatas[indexPath.row]
+    let vc = UIStoryboard.init(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "DetailView") as! DetailViewController
+    vc.coinName = rowItem.id
+    vc.modalPresentationStyle = .popover
+    self.delegate?.didCryptoSelected(vc)
   }
 }
 
