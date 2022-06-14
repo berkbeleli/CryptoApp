@@ -41,12 +41,12 @@ extension LoginViewController: LoginViewProtocol {
     emailTextField.layer.borderWidth = 0 // change border width
     passwordTextField.layer.borderColor = UIColor.clear.cgColor // change border color
     passwordTextField.layer.borderWidth = 0 // change border width
-//    if let vc = UIStoryboard.init(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "tabBarController") as? UITabBarController {
-//      let navVC = vc.viewControllers![0] as! SettingsViewController
-//      navVC.email = emailTextField.text
-//      vc.modalPresentationStyle = .fullScreen
-//      self.present(vc, animated: true)
-//    }
+    if let vc = UIStoryboard.init(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "tabBarController") as? UITabBarController {
+      let navVC = vc.viewControllers![0] as! SettingsViewController
+      navVC.email = emailTextField.text
+      vc.modalPresentationStyle = .fullScreen
+      self.present(vc, animated: true)
+    }
   }
   
   func bothError() {
