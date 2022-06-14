@@ -24,7 +24,6 @@
 		C0396AAB28590B6100023554 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0396AAA28590B6100023554 /* LaunchScreen.storyboard */; };
 		C0C74AC42858AA1800E32399 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C74AC32858AA1800E32399 /* AppDelegate.swift */; };
 		C0C74AC62858AA1800E32399 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C74AC52858AA1800E32399 /* SceneDelegate.swift */; };
-		C0C74AC82858AA1800E32399 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C74AC72858AA1800E32399 /* ViewController.swift */; };
 		C0C74ACB2858AA1800E32399 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0C74AC92858AA1800E32399 /* Main.storyboard */; };
 		C0C74ACD2858AA1B00E32399 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0C74ACC2858AA1B00E32399 /* Assets.xcassets */; };
 		C0C74AE12858AE9D00E32399 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C74AE02858AE9D00E32399 /* LoginViewController.swift */; };
@@ -51,6 +50,9 @@
 		C0E3EFE82859339700D81B68 /* SearchCoinTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E3EFE62859339700D81B68 /* SearchCoinTableViewCell.swift */; };
 		C0E3EFE92859339700D81B68 /* SearchCoinTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C0E3EFE72859339700D81B68 /* SearchCoinTableViewCell.xib */; };
 		C0E3EFEC2859341200D81B68 /* SearchCoinDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E3EFEB2859341200D81B68 /* SearchCoinDataService.swift */; };
+		C0E3EFF32859351700D81B68 /* SearchCoinTableViewHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E3EFEE2859351700D81B68 /* SearchCoinTableViewHelper.swift */; };
+		C0E3EFF42859351700D81B68 /* SearchCoinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E3EFF02859351700D81B68 /* SearchCoinViewController.swift */; };
+		C0E3EFF52859351700D81B68 /* SearchCoinViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E3EFF22859351700D81B68 /* SearchCoinViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -73,7 +75,6 @@
 		C0C74AC02858AA1800E32399 /* Crypto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Crypto.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0C74AC32858AA1800E32399 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C0C74AC52858AA1800E32399 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C0C74AC72858AA1800E32399 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C0C74ACA2858AA1800E32399 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C0C74ACC2858AA1B00E32399 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C0C74AD12858AA1B00E32399 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -100,6 +101,9 @@
 		C0E3EFE62859339700D81B68 /* SearchCoinTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchCoinTableViewCell.swift; sourceTree = "<group>"; };
 		C0E3EFE72859339700D81B68 /* SearchCoinTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SearchCoinTableViewCell.xib; sourceTree = "<group>"; };
 		C0E3EFEB2859341200D81B68 /* SearchCoinDataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchCoinDataService.swift; sourceTree = "<group>"; };
+		C0E3EFEE2859351700D81B68 /* SearchCoinTableViewHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchCoinTableViewHelper.swift; sourceTree = "<group>"; };
+		C0E3EFF02859351700D81B68 /* SearchCoinViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchCoinViewController.swift; sourceTree = "<group>"; };
+		C0E3EFF22859351700D81B68 /* SearchCoinViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchCoinViewModel.swift; sourceTree = "<group>"; };
 		DD646E5ED12022B6A7F43637 /* Pods-Crypto.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Crypto.debug.xcconfig"; path = "Target Support Files/Pods-Crypto/Pods-Crypto.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -238,7 +242,6 @@
 				C0C74AE52858AF4200E32399 /* Extension */,
 				C0C74AC32858AA1800E32399 /* AppDelegate.swift */,
 				C0C74AC52858AA1800E32399 /* SceneDelegate.swift */,
-				C0C74AC72858AA1800E32399 /* ViewController.swift */,
 				C0C74AC92858AA1800E32399 /* Main.storyboard */,
 				C0C74ACC2858AA1B00E32399 /* Assets.xcassets */,
 				C0396AAA28590B6100023554 /* LaunchScreen.storyboard */,
@@ -443,6 +446,9 @@
 				C0E3EFE42859339700D81B68 /* Components */,
 				C0E3EFE12859333200D81B68 /* Model */,
 				C0E3EFEA2859341200D81B68 /* API Service */,
+				C0E3EFEF2859351700D81B68 /* View Controller */,
+				C0E3EFF12859351700D81B68 /* ViewModel */,
+				C0E3EFED2859351700D81B68 /* Helper */,
 			);
 			path = Search;
 			sourceTree = "<group>";
@@ -478,6 +484,30 @@
 				C0E3EFEB2859341200D81B68 /* SearchCoinDataService.swift */,
 			);
 			path = "API Service";
+			sourceTree = "<group>";
+		};
+		C0E3EFED2859351700D81B68 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				C0E3EFEE2859351700D81B68 /* SearchCoinTableViewHelper.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		C0E3EFEF2859351700D81B68 /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C0E3EFF02859351700D81B68 /* SearchCoinViewController.swift */,
+			);
+			path = "View Controller";
+			sourceTree = "<group>";
+		};
+		C0E3EFF12859351700D81B68 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				C0E3EFF22859351700D81B68 /* SearchCoinViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 		C3BA24569E57A483B59C86F7 /* Pods */ = {
@@ -614,11 +644,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0E3EFF32859351700D81B68 /* SearchCoinTableViewHelper.swift in Sources */,
 				C0C74AE12858AE9D00E32399 /* LoginViewController.swift in Sources */,
 				C0E3EFD828592E5900D81B68 /* PortfolioViewController.swift in Sources */,
 				C0396AA428590B0800023554 /* MarketInfoTableViewCell.swift in Sources */,
 				C0E3EFC028592A0C00D81B68 /* SpecificCoinModel.swift in Sources */,
-				C0C74AC82858AA1800E32399 /* ViewController.swift in Sources */,
 				C0396AA028590B0800023554 /* GlobalMarketModel.swift in Sources */,
 				C0C74AED2858B33500E32399 /* SettingsViewController.swift in Sources */,
 				C0E3EFDB28592E7E00D81B68 /* PortfolioTableViewHelper.swift in Sources */,
@@ -635,6 +665,7 @@
 				C0E3EFBA2859282500D81B68 /* DetailViewController.swift in Sources */,
 				C0E3EFC328592A3F00D81B68 /* DetailViewModel.swift in Sources */,
 				C0C74AF52858B6CA00E32399 /* WebviewViewController.swift in Sources */,
+				C0E3EFF42859351700D81B68 /* SearchCoinViewController.swift in Sources */,
 				C0396AA228590B0800023554 /* GlobalMarketService.swift in Sources */,
 				C0E3EFBD2859296D00D81B68 /* SpecificCoinDataService.swift in Sources */,
 				C0396A9E28590B0800023554 /* MarketInfoViewModel.swift in Sources */,
@@ -643,6 +674,7 @@
 				C0396AA628590B0800023554 /* GlobalInfoCollectionViewCell.swift in Sources */,
 				C0C74AF12858B3CA00E32399 /* SettingsViewModel.swift in Sources */,
 				C0E3EFCC28592C2A00D81B68 /* PortfolioCoinModelBrain.swift in Sources */,
+				C0E3EFF52859351700D81B68 /* SearchCoinViewModel.swift in Sources */,
 				C0E3EFE82859339700D81B68 /* SearchCoinTableViewCell.swift in Sources */,
 				C0E3EFD428592DDD00D81B68 /* PortfolioTableViewCell.swift in Sources */,
 				C0396A9F28590B0800023554 /* CoinsModel.swift in Sources */,
