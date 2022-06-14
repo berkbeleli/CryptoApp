@@ -50,6 +50,7 @@
 		C0E3EFE32859333200D81B68 /* SearchCoinModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E3EFE22859333200D81B68 /* SearchCoinModel.swift */; };
 		C0E3EFE82859339700D81B68 /* SearchCoinTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E3EFE62859339700D81B68 /* SearchCoinTableViewCell.swift */; };
 		C0E3EFE92859339700D81B68 /* SearchCoinTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C0E3EFE72859339700D81B68 /* SearchCoinTableViewCell.xib */; };
+		C0E3EFEC2859341200D81B68 /* SearchCoinDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E3EFEB2859341200D81B68 /* SearchCoinDataService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -98,6 +99,7 @@
 		C0E3EFE22859333200D81B68 /* SearchCoinModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchCoinModel.swift; sourceTree = "<group>"; };
 		C0E3EFE62859339700D81B68 /* SearchCoinTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchCoinTableViewCell.swift; sourceTree = "<group>"; };
 		C0E3EFE72859339700D81B68 /* SearchCoinTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SearchCoinTableViewCell.xib; sourceTree = "<group>"; };
+		C0E3EFEB2859341200D81B68 /* SearchCoinDataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchCoinDataService.swift; sourceTree = "<group>"; };
 		DD646E5ED12022B6A7F43637 /* Pods-Crypto.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Crypto.debug.xcconfig"; path = "Target Support Files/Pods-Crypto/Pods-Crypto.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -440,6 +442,7 @@
 			children = (
 				C0E3EFE42859339700D81B68 /* Components */,
 				C0E3EFE12859333200D81B68 /* Model */,
+				C0E3EFEA2859341200D81B68 /* API Service */,
 			);
 			path = Search;
 			sourceTree = "<group>";
@@ -467,6 +470,14 @@
 				C0E3EFE72859339700D81B68 /* SearchCoinTableViewCell.xib */,
 			);
 			path = SearchCoinTableViewCell;
+			sourceTree = "<group>";
+		};
+		C0E3EFEA2859341200D81B68 /* API Service */ = {
+			isa = PBXGroup;
+			children = (
+				C0E3EFEB2859341200D81B68 /* SearchCoinDataService.swift */,
+			);
+			path = "API Service";
 			sourceTree = "<group>";
 		};
 		C3BA24569E57A483B59C86F7 /* Pods */ = {
@@ -620,6 +631,7 @@
 				C0E3EFE32859333200D81B68 /* SearchCoinModel.swift in Sources */,
 				C0396AA828590B0800023554 /* MarketInfoTableViewHelper.swift in Sources */,
 				C0396A8828590A4A00023554 /* DoubleInt+Extension.swift in Sources */,
+				C0E3EFEC2859341200D81B68 /* SearchCoinDataService.swift in Sources */,
 				C0E3EFBA2859282500D81B68 /* DetailViewController.swift in Sources */,
 				C0E3EFC328592A3F00D81B68 /* DetailViewModel.swift in Sources */,
 				C0C74AF52858B6CA00E32399 /* WebviewViewController.swift in Sources */,
