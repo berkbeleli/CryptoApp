@@ -23,6 +23,7 @@ class PortfolioViewController: UIViewController {
   override func viewWillAppear(_ animated: Bool) {
     viewModel.updatePortfolioItem { // on viewwill appear update items' prices as it's tab bar item
       self.tableViewHelper.reloadTable()
+      self.didPriceUpdated()
     }
   }
   
