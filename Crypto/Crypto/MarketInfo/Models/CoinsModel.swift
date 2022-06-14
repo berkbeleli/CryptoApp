@@ -7,7 +7,7 @@
 
 import Foundation
 
-//Coin Model Definition
+//MARK: - Coin Model Definition
 struct CoinsModel: Codable {
   var id: String?
   var symbol: String?
@@ -29,7 +29,7 @@ struct CoinsModel: Codable {
       case priceChangePercentage24H = "price_change_percentage_24h"
   }
 }
-//Coin definition for our display
+//MARK: - Coin definition for our display
 struct AllCoinDatas {
   var id: String?
   var symbol: String?

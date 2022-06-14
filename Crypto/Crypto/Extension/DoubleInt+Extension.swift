@@ -8,6 +8,7 @@
 import Foundation
 
 extension Double{
+  // with currency symbol
   var withSeperator : String {
     let currencyFormatter = NumberFormatter()
     currencyFormatter.usesGroupingSeparator = true
@@ -17,6 +18,7 @@ extension Double{
     return newPrice ?? "0"
   }
   
+  // without currency symbol
   var withOutCurrencySeperator : String {
     let currencyFormatter = NumberFormatter()
     currencyFormatter.usesGroupingSeparator = true

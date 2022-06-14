@@ -10,7 +10,7 @@ import Foundation
 class SearchCoinViewModel {
   private var specificCoinDataService = SearchCoinDataService() // data service definition
   var onSearchItemsChanged: (([SeachCoin]) -> ())?
-
+  /// fetch cryptos according to entered word
   func fetchCryptos(_ coinName: String) {
     
     specificCoinDataService.getCoins(searchedCoin: coinName) { [weak self] searchedCoin in

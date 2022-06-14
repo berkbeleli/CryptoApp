@@ -6,7 +6,7 @@
 //
 
 import Foundation
-//Coin definition
+//MARK: - Coin definition
 struct GlobalMarketModel: Codable {
   let data: DataModel?
   struct DataModel: Codable {
@@ -20,7 +20,7 @@ struct GlobalMarketModel: Codable {
     }
   }
 }
-//Coin definition for our display
+//MARK: - Coin definition for our display
 struct GlobalMarketViewModel {
   var totalMarketCap: String?
   var activeCryptoCurrencies: String?

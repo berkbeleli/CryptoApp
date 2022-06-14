@@ -134,8 +134,8 @@
 				C0396A8F28590B0800023554 /* API Service */,
 				C0396A8C28590B0800023554 /* Models */,
 				C0396A9228590B0800023554 /* Components */,
-				C0396A8A28590B0800023554 /* ViewModel */,
 				C0396A9928590B0800023554 /* ViewController */,
+				C0396A8A28590B0800023554 /* ViewModel */,
 				C0396A9B28590B0800023554 /* Helpers */,
 			);
 			path = MarketInfo;

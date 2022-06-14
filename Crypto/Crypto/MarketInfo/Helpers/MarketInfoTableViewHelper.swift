@@ -57,6 +57,7 @@ extension MarketInfoTableViewHelper: UITableViewDataSource {
   
   func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
     let cell = tableView.dequeueReusableCell(withIdentifier: "MarketInfoTableViewCell") as! MarketInfoTableViewCell
+    // set cell attributes
     let rowItem = allCoinsDatas[indexPath.row]
     let url = URL(string: rowItem.image!)
     cell.cryptoImage.kf.setImage(with: url)

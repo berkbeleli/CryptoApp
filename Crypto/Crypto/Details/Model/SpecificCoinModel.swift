@@ -23,7 +23,7 @@ struct SpecificCoinModel: Codable {
     }
 }
 
-// MARK: - Tion
+// MARK: - Lang
 struct Lang: Codable {
     var en: String? = ""
 }
@@ -68,7 +68,7 @@ struct Sparkline7D: Codable {
         case price
     }
 }
-
+// MARK: - SpecificViewViewModel
 struct SpecificViewViewModel{
   var id: String?
   var symbol: String?

@@ -8,8 +8,6 @@
 import Foundation
 
 class GlobalMarketService {
-  
-  var globalMarketModel: GlobalMarketModel?
   // This function fetch global datas
   func fetchDatas( completionBlock: @escaping (Result<GlobalMarketModel, Error>) -> Void) {
     

@@ -6,8 +6,8 @@
 //
 
 import Foundation
-
-protocol SettingsViewProtocol: AnyObject {  // protocol definition
+// protocol definition
+protocol SettingsViewProtocol: AnyObject {
   func onWebsiteSelected()
 }
 

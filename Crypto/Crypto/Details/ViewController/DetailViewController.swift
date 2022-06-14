@@ -51,7 +51,7 @@ class DetailViewController: UIViewController {
       }
     }
   }
-  
+  /// Update the UI according to received Datas
   func updateUI(_ model: SpecificViewViewModel) {
     let url = URL(string: (model.image!))
     coinImageVView.kf.setImage(with: url)
@@ -94,13 +94,14 @@ class DetailViewController: UIViewController {
 }
 //MARK: - Protocol Definition
 extension DetailViewController: DetailViewProtocol {
+  ///Change add to portfolio Item View
   func addedToPortfolio() {
     UIView.animate(withDuration: 0.5) {
       self.addToPortfolioButton.tintColor = .darkGray
       self.addToPortfolioButton.backgroundColor = .white
     }
   }
-  
+  ///Change add to portfolio Item View
   func deletedFromPortfolio() {
     UIView.animate(withDuration: 0.5) {
       self.addToPortfolioButton.tintColor = .white

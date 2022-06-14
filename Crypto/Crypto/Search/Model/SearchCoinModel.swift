@@ -6,7 +6,7 @@
 //
 
 import Foundation
-// Search Coin model
+//MARK: - Search Coin model
 struct SearchCoinModel: Codable {
   var coins: [SearchCoin]?
   
@@ -24,7 +24,7 @@ struct SearchCoinModel: Codable {
     }
   }
 }
-// SearchCoin View Model
+//MARK: - SearchCoin View Model
 struct SeachCoin {
   var id: String?
   var name: String?
