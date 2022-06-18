@@ -1,7 +1,3 @@
-# week-4
-
-Crypto App
-
 Used Design Pattern: MVVM
 
 Used Structures: UITableView, UICollectionView, WebView, UITabBar, NavigationBar
@@ -10,7 +6,7 @@ Used Packages: KingFisher, LineChart
 
 Screen Shots and Videos
 
-Video Link:(https://github.com/Arcelik-IOS-Patika-Bootcamp/week-4-berkbeleli/blob/main/ScreenVideo/Screen%20Recording%202022-06-15%20at%2002.00.04%20AM.mov)
+Video Link:(https://github.com/berkbeleli/CryptoApp/blob/main/ScreenVideo/Screen%20Recording%202022-06-15%20at%2002.00.04%20AM.mov)
 
 Screen Shots
 
