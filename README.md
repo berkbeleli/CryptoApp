@@ -1,6 +1,6 @@
 Used Design Pattern: MVVM
 
-Used Structures: UITableView, UICollectionView, WebView, UITabBar, NavigationBar
+Used Components: UITableView, UICollectionView, WebView, UITabBar, NavigationBar
 
 Used Packages: KingFisher, LineChart
 
